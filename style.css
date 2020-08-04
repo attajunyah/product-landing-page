@@ -1,0 +1,168 @@
+@media screen and (max-width: 800px) {
+    .parent {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+.parent {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    
+}
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    
+}
+
+h1 {
+    color: darkcyan;
+    font-size: large;
+}
+
+#header-img {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+
+main {
+    display: grid;
+    place-items: center;
+    
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    font-size: medium;
+    padding: 10px;
+    margin: 10px;
+    border: darkcyan 2px solid;
+    border-radius: 1rem;
+    background-color: black;
+    
+}
+
+button:hover {
+    background-color: rgb(37, 151, 185);
+}
+
+body {
+    background-color: #eee;
+}
+
+p {
+    text-align: center;
+}
+
+#email {
+    padding-left: 20%;
+    padding-right: 20%;
+    width: auto;
+    height: 35px;
+    margin-left: 16%;
+    margin-top: 15px;
+    
+}
+
+#email:hover {
+    background-color: rgb(37, 151, 185);
+}
+
+#submit {
+    background-color: chocolate;
+    color: cornsilk;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: auto;
+    height: 35px;
+    margin-left: 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#submit:hover {
+    background-color: rgb(37, 151, 185);
+}
+.card-div {
+    
+    border: red 5px solid;
+    
+}
+
+.card {
+    display: grid;
+    height: 300px;
+    width: 100%;
+    grid-template-columns: repeat(3, 2fr);
+}
+h3 {
+    text-align: center;
+}
+.visual {
+    height: 100%;
+    width: 100%;
+}
+img {
+    height: 100%;
+    width: 400px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+h3 {
+    color: darkgreen;
+}
+
+footer {
+    display: grid;
+    background-color: black;
+    place-items: center ;
+    font-size: larged;
+    height: 70px;
+    width: 70%;
+    color: darkcyan; 
+    margin-left: 15%;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+p {
+    color: darkcyan;
+    padding: 5px; 
+}
+
+#video {
+    padding: 5px;
+}
