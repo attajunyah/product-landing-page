@@ -54,6 +54,7 @@ main {
 
 .nav-link {
     color: white;
+    text-decoration: none;
 }
 
 button {
@@ -65,6 +66,7 @@ button {
     border: darkcyan 2px solid;
     border-radius: 1rem;
     background-color: black;
+    
     
 }
 
